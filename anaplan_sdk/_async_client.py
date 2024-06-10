@@ -58,7 +58,8 @@ class AsyncClient(_AsyncBaseClient):
         https://vinzenzklass.github.io/anaplan-sdk.
 
         :param workspace_id: The Anaplan workspace Id. You can copy this from the browser URL or
-                             find them using an HTTP Client like Postman, Paw, Insomnia etc.
+                             find them using an HTTP Client like Postman, Paw, Insomnia etc. or can be retreived
+                             from the Anaplan model help button available on top right of the model
         :param model_id: The identifier of the model.
         :param user_email: A valid email registered with the Anaplan Workspace you are attempting
                            to access. **The associated user must have Workspace Admin privileges**
